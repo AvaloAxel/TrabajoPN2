@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Área - Terreno Forma A</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora de Área de Terreno - Forma A</h1>
+
+    <form id="areaForm">
+        <label for="alturaA">Altura total (A):</label>
+        <input type="number" id="alturaA" required step="any">
+
+        <label for="alturaC">Altura inferior (C):</label>
+        <input type="number" id="alturaC" required step="any">
+
+        <label for="baseB">Base (B):</label>
+        <input type="number" id="baseB" required step="any">
+
+        <button type="submit">Calcular Área</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
