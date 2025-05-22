@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #f1f1f1;
+  font-family: 'Press Start 2P', cursive;
+  margin: 20px;
+  padding: 20px;
+  border: 3px double #ff00cc;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 20px #ff00cc;
+  text-shadow: 0 0 5px #ff00cc, 0 0 10px #ff00cc;
+}
+
+input {
+  background-color: #1a1a1a;
+  color: #00fff7;
+  border: 2px solid #ff00cc;
+  padding: 10px;
+  margin: 5px 0;
+  font-family: 'Press Start 2P', cursive;
+  width: 100%;
+  box-shadow: 0 0 5px #00fff7;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ff00cc;
+}
+
+button {
+  background-color: #1a1a1a;
+  color: #00fff7;
+  border: 3px groove #ff00cc;
+  padding: 12px 20px;
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+  margin-top: 15px;
+  box-shadow: 0 0 10px #ff00cc;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff00cc;
+  color: #1a1a1a;
+  box-shadow: 0 0 20px #ff00cc, 0 0 30px #ff00cc;
+}
+
+#resultado {
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px dashed #00fff7;
+  box-shadow: 0 0 10px #00fff7;
+}
+
+.correcto {
+  color: #00ff90;
+  text-shadow: 0 0 5px #00ff90;
+}
+
+.error {
+  color: #ff4b5c;
+  text-shadow: 0 0 5px #ff4b5c;
+}
