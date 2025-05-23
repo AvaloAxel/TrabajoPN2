@@ -1,1 +1,2 @@
 Hola desde rama conflicto1
+Hola desde rama conflicto2
