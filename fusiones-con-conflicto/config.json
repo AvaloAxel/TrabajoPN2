@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 { "modo": "normal", "volumen": 0 }
+=======
+{ "modo": "normal", "volumen": 100 }
+>>>>>>> config-ruidoso
